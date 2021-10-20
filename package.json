@@ -1,0 +1,26 @@
+{
+  "name": "tests-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:report": "node ./cypress/reports/report.js"
+  },
+  "author": "alejandro rop",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^8.6.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/stepDefinitions/",
+    "cucumberJson": {
+      "generate": true
+    }
+  }
+}
