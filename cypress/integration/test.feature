@@ -1,8 +1,8 @@
-Feature: title test
+Feature: quotes portal Login
 
-    Feature Description
+    As a admin user of Edge quotes portal, I want to sign in
 
     Scenario: Scenario name
-    Given Start to type your Given step here
+    Given the user trying to login to quotes portal with the user 'amoreno@lean-tech.io' and password 'Emma022020'
     # When Start to type your When step here
     # Then you should
