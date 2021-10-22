@@ -1,5 +1,8 @@
 {
-   "ScreenshotsFolder":"cypress/screenshots",
-   "videossFolder":"cypress/videos/testExecutionsVideos",
-  "testFiles": "**/*.feature"
+  "ScreenshotsFolder": "cypress/screenshots",
+  "videossFolder": "cypress/videos/testExecutionsVideos",
+  "testFiles": "**/*.feature",
+  "env": {
+    "url": "https://quote-qa.edgelogistics.com/main/quotes"
+  }
 }
