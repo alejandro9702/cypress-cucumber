@@ -4,5 +4,6 @@
   "testFiles": "**/*.feature",
   "env": {
     "url": "https://quote-qa.edgelogistics.com/main/quotes"
-  }
+  },
+  "projectId": "mh1ku2"
 }
