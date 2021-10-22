@@ -1,3 +1,5 @@
 {
+   "ScreenshotsFolder":"cypress/screenshots",
+   "videossFolder":"cypress/videos/testExecutionsVideos",
   "testFiles": "**/*.feature"
 }
